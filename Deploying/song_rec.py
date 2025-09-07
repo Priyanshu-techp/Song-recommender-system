@@ -36,17 +36,7 @@ if st.button('Recommend Song'):
 
         for i, url in enumerate(recommandations):
             embed_url = url.replace("open.spotify.com/track/", "open.spotify.com/embed/track/")
-            with cols[i % 3]:
-                st.markdown(
-                    """
-                    <div style="border-radius:25px; 
-                                background-color:#1DB95420; 
-                                padding:20px; 
-                                margin-bottom:25px; 
-                                box-shadow: 0 6px 14px rgba(0,0,0,0.3);">
-                    """,
-                    unsafe_allow_html=True
-                )
+
                 components.iframe(embed_url, width=400, height=500, scrolling=False)
                 st.markdown("</div>", unsafe_allow_html=True)
 
