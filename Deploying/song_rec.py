@@ -39,7 +39,7 @@ if st.button('Recommend Song'):
             with cols[i % 2]:
                     st.markdown(
                         """
-                        <div style="border-radius:25px; 
+                        <div style="border-radius:15px; 
                                     background-color:#1DB95420; 
                                     padding:20px; 
                                     margin-bottom:25px; 
@@ -48,7 +48,7 @@ if st.button('Recommend Song'):
                         unsafe_allow_html=True
             )
 
-            components.iframe(embed_url, width=300, height=400, scrolling=False)
+            components.iframe(embed_url, width=400, height=200, scrolling=False)
             st.markdown("</div>", unsafe_allow_html=True)
 
 
