@@ -39,7 +39,7 @@ if st.button('Recommend Song'):
             with cols[i % 2]:
                     st.markdown(
                         """
-
+                        """
                         unsafe_allow_html=True
             )
 
