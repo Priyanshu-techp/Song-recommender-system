@@ -39,12 +39,12 @@ if st.button('Recommend Song'):
             with cols[i % 2]:
                     st.markdown(
                         """
-                        <div style="border-radius:15px; 
-                                    background-color:#1DB95420; 
-                                    padding:20px; 
-                                    margin-bottom:25px; 
-                                    box-shadow: 0 6px 14px rgba(0,0,0,0.3);">
-                        """,
+                        # <div style="border-radius:15px; 
+                        #             background-color:#1DB95420; 
+                        #             padding:20px; 
+                        #             margin-bottom:25px; 
+                        #             box-shadow: 0 6px 14px rgba(0,0,0,0.3);">
+                        # """,
                         unsafe_allow_html=True
             )
 
