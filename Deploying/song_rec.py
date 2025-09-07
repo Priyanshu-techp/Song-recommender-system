@@ -46,10 +46,10 @@ if st.button('Recommend Song'):
                                     box-shadow: 0 6px 14px rgba(0,0,0,0.3);">
                         """,
                         unsafe_allow_html=True
-                )
+            )
 
-                components.iframe(embed_url, width=400, height=500, scrolling=False)
-                st.markdown("</div>", unsafe_allow_html=True)
+            components.iframe(embed_url, width=400, height=500, scrolling=False)
+            st.markdown("</div>", unsafe_allow_html=True)
 
 
 
