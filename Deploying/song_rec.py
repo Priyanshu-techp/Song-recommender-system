@@ -47,7 +47,7 @@ if st.button('Recommend Song'):
                     """,
                     unsafe_allow_html=True
                 )
-                components.iframe(embed_url, width=300, height=200, scrolling=False)
+                components.iframe(embed_url, width=400, height=200, scrolling=False)
                 st.markdown("</div>", unsafe_allow_html=True)
 
 
