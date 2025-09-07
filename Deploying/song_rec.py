@@ -39,7 +39,7 @@ if st.button('Recommend Song'):
             with cols[i % 3]:
                 st.markdown(
                     """
-                    <div style="border-radius:15px; 
+                    <div style="border-radius:25px; 
                                 background-color:#1DB95420; 
                                 padding:20px; 
                                 margin-bottom:25px; 
