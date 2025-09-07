@@ -32,11 +32,11 @@ if st.button('Recommend Song'):
     recommandations = recommand(selected_song)
     if recommandations:
         st.subheader("Recommended Songs")
-        cols = st.columns(3)
+        cols = st.columns(2)
 
         for i, url in enumerate(recommandations):
             embed_url = url.replace("open.spotify.com/track/", "open.spotify.com/embed/track/")
-            with cols[i % 3]:
+            with cols[i % 2]:
                     st.markdown(
                         """
                         <div style="border-radius:25px; 
