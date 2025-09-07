@@ -38,8 +38,7 @@ if st.button('Recommend Song'):
             embed_url = url.replace("open.spotify.com/track/", "open.spotify.com/embed/track/")
             with cols[i % 2]:
                     st.markdown(
-                        """
-                        """
+                        
                         unsafe_allow_html=True
             )
 
